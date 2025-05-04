@@ -3,7 +3,7 @@ import { InjectModel } from '@nestjs/mongoose';
 import { FilterQuery, Model, Types } from 'mongoose';
 
 import { Feedback, FeedbackDocument } from './feedbacks.schema';
-import { PaginationResponseDTO } from 'src/database';
+import { PaginationResponseDTO } from '../database';
 
 @Injectable()
 export class FeedbacksRepository {
